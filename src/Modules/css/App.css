@@ -1,0 +1,147 @@
+/* html {
+    background-color: whitesmoke;
+} */
+.header {
+  /* background-color: #16a085; */
+  font-family: cursive;
+  margin-top: 10px;
+  /*height: 35px; */
+}
+.headerLbl {
+  background-color: #2dd1b0;
+  margin-top: 10px;
+  height: 35px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+body {
+  background-color: #ecf0f1;
+}
+.headerLable {
+  color: whitesmoke;
+}
+.headerLable:focus,headerLable:hover{
+  color: white !important ;
+}
+.login {
+  background-color: white;
+  margin-top: 20px;
+  width: 400px;
+  padding: 20px;
+}
+.Register {
+  background-color: white;
+  margin-top: 20px;
+  width: 720px;
+  padding: 20px;
+}
+.btnSubmit {
+  background-color: #12b191;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+  margin-bottom: 13px;
+  margin-top: 26px;
+}
+.btnSubmit:hover,
+.btnSubmit:active,
+.btnSubmit:focus {
+  background-color: #048369 !important;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+  margin-bottom: 13px;
+}
+.btnGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.txtInput,
+.txtInput:hover {
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 0px;
+  border-top: 0px;
+  box-shadow: none !important;
+  margin-top: 20px;
+}
+.divBox {
+  display: flex;
+  justify-content: center;
+}
+.fromRow {
+  margin-bottom: 5px;
+}
+
+.mainDiv {
+  margin-top: 30px;
+  width: 60%;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 20%;
+}
+.text-center {
+  margin-bottom: 25px;
+}
+
+.mt-1 {
+  margin-top: 20px;
+}
+.HobbieChkBox {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.ChkBoxLbl {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  /* width: 18%; */
+}
+.radioLable {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.form-check-label {
+  margin-left: 10px;
+}
+.invalid-feedback {
+  color: red;
+  font-size: 12px;
+  /* position: absolute; */
+}
+.errorMsg {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+}
+.lbl {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.InputLogin {
+  padding-left: 20px;
+  padding-right: 20px;
+  /* margin-bottom: 15px; */
+}
+.btnAlign {
+  display: flex;
+  justify-content: center;
+}
+/* .form-group {
+  margin-bottom: 15px;
+  position: absolute;
+  display: contents;
+} */
